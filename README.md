@@ -23,12 +23,17 @@ Flags:
       --windows         use windows-style line endings (\r\n) instead of unix-style (\n)
 ```
 
+Note the type of the file (account balance, event notification, etc) is autodetected by inspecting the Header line present in every file emitted by Helix.
+
 The `--preserve` flag is to disable the auto-conversion of fields from string to their appropriate types and format.  For example, in the account balance file the `accountBalance` field as it appears in the file is `000000000001234`. By default, this is emitted by `hxu` as `12.34`, which is its semantic meaning.  To disable this conversion, specify the `--preserve` flag and it will emit from `hxu` as the original value, `000000000001234`. 
 
 The `file` command does some implicit validation to ensure the file is valid:
-- Ensures all bytes for all fields on every line exist (proper ignores extra fields)
-- Compares line count reported by header with actual line count
+- Ensures all bytes for all fields on every line exist (properly ignores extra fields)
+
 If you want to perform this validation without converting and emitting file content, pass the `--format=verifyonly` flag
+If you want additional validation, pass the `--strict` flag.
+
+If no arguments are specified (i.e. missing `inputfile` and `outputfile`), reads from `stdin` and writes to `stdout`.
 
 `hxu help` - displays helpful information for using non-default behavior of hxu. e.g. arguments and flags for each individual command.
 
