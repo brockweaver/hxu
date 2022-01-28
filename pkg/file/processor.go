@@ -135,7 +135,7 @@ func Process(input *bufio.Scanner, output *bufio.Writer, format EmitFormat, stri
 		}
 	}
 
-	if count != hdr.Typed_RecordCount {
+	if strict && count != hdr.Typed_RecordCount {
 		return fmt.Errorf("in file type %v, header count of %v lines does not match actual line count of %v", fpTypeName, hdr.RecordCount, count)
 	}
 

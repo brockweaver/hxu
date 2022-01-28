@@ -1,4 +1,4 @@
-for file in ../test_data/*.txt; do
+for file in ../testdata/*.txt; do
     echo "******  Verifying file $file ..."
     ../hxu file verify $file ;
     echo "Done."
