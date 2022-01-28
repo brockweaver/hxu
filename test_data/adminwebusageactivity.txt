@@ -1,0 +1,36 @@
+H	201909091523_ADMINWEBUSAGEACTIVITY.TXT	35	2019-09-09T15:23:23.626-05:00	2019-09-09T15:23:23.626-05:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=e478c932-7fec-4484-950c-4093b5dcb433	2018-02-07T21:54:59.452+00:00
+338208	https://sandbox-admin.corepro.io/reports/other	2018-02-07T21:55:03.108+00:00
+338208	https://sandbox-admin.corepro.io/Base/ChangeClient?client=260	2018-02-07T22:05:39.000+00:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=73e10849-7ae3-4856-91cb-1e4defceb8fc	2018-02-07T22:05:39.046+00:00
+338208	https://sandbox-admin.corepro.io/reports/other	2018-02-07T22:05:41.375+00:00
+338208	https://sandbox-admin.corepro.io/reports/GenerateReport	2018-02-07T22:12:01.358+00:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=904e69d3-f114-40b7-9e1e-08f09b51d985	2018-02-08T17:01:35.961+00:00
+338208	https://sandbox-admin.corepro.io/Base/ChangeBank?bank=212	2018-02-08T17:05:18.602+00:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=54e2a79a-293d-402e-91d4-5dc61077e593	2018-02-08T17:05:18.696+00:00
+338208	https://sandbox-admin.corepro.io/Base/ChangeClient?client=260	2018-02-08T17:05:21.789+00:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=952063a9-d5b6-4d65-a384-f741e1d9ddf6	2018-02-08T17:05:21.836+00:00
+338208	https://sandbox-admin.corepro.io/reports/other	2018-02-08T17:05:25.461+00:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=44f17d23-62ba-46f6-842c-5886207d0686	2018-02-08T21:54:46.983+00:00
+338208	https://sandbox-admin.corepro.io/reports/other	2018-02-08T21:55:01.936+00:00
+338208	https://sandbox-admin.corepro.io/reports/GenerateReport	2018-02-08T21:57:29.764+00:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=db87e032-08b7-4aeb-b871-c5a8973b044b	2018-02-08T22:08:13.685+00:00
+338208	https://sandbox-admin.corepro.io/reports/other	2018-02-08T22:09:07.294+00:00
+338208	https://sandbox-admin.corepro.io/reports/GenerateReport	2018-02-08T23:45:02.625+00:00
+338208	https://sandbox-admin.corepro.io/Dashboard?CPSID=aaa09a3a-c455-4167-bf36-2f63c580b0e1	2018-02-08T23:45:39.438+00:00
+434512	https://sandbox-admin.corepro.io/Dashboard/Landing?CPSID=a0f75b25-5f71-40c7-ad7c-4df0a220a179	2018-04-06T20:52:53.311+00:00	This is extra text after the defined set of fields.  Your processing should ignore this and continue without error.	This field should also not cause issues.
+434512	https://sandbox-admin.corepro.io/Base/ChangeBank?bank=212	2018-04-06T20:53:26.639+00:00
+434512	https://sandbox-admin.corepro.io/Dashboard?CPSID=ecf4efd4-bbd9-46cb-accf-857ec7a4498c	2018-04-06T20:53:26.686+00:00
+434512	https://sandbox-admin.corepro.io/Base/ChangeClient?client=9022	2018-04-06T20:53:42.826+00:00
+434512	https://sandbox-admin.corepro.io/Dashboard?CPSID=3b1813cf-5c2e-43c6-a4a2-6829ae7f8ff8	2018-04-06T20:53:42.936+00:00
+434512	https://sandbox-admin.corepro.io/Base/ChangeClient?client=8781	2018-04-06T20:54:11.201+00:00
+434512	https://sandbox-admin.corepro.io/Dashboard?CPSID=f6a3a274-7402-4816-aeb9-162c59a71077	2018-04-06T20:54:11.592+00:00
+434512	https://sandbox-admin.corepro.io/Base/ChangeClient?client=9045	2018-04-06T20:54:29.545+00:00
+434512	https://sandbox-admin.corepro.io/Dashboard?CPSID=a6f42916-a7e7-4ab5-8dc8-9daa92dc1c85	2018-04-06T20:54:29.607+00:00
+434512	https://sandbox-admin.corepro.io/Dashboard/Landing?CPSID=8948238d-5865-4e33-aa3d-6503a2c3d835	2018-04-09T13:57:21.306+00:00
+434512	https://sandbox-admin.corepro.io/customer/search?CPSID=8948238d-5865-4e33-aa3d-6503a2c3d835	2018-04-09T13:57:50.739+00:00
+434512	https://sandbox-admin.corepro.io/Customer/PerformSearch	2018-04-09T13:58:02.668+00:00
+434512	https://sandbox-admin.corepro.io/customer/overview/325814?CPSID=8948238d-5865-4e33-aa3d-6503a2c3d835	2018-04-09T13:58:11.934+00:00
+434512	https://sandbox-admin.corepro.io/customer/AccountTransactions/?transactionId=7046285&accountId=325817&customerId=325814&CPSID=8948238d-5865-4e33-aa3d-6503a2c3d835	2018-04-09T13:58:21.922+00:00
+434512	https://sandbox-admin.corepro.io/customer/AccountTransactions?customerId=325814&AccountId=325817&CPSID=8948238d-5865-4e33-aa3d-6503a2c3d835	2018-04-09T15:33:27.288+00:00
+434512	https://sandbox-admin.corepro.io/Customer/AccountTransactions	2018-04-09T15:33:40.402+00:00

@@ -1,0 +1,5 @@
+H	201909231753_ADMINUSERS.TXT	81	2019-09-23T17:53:40.320-04:00	2019-09-23T17:53:40.320-04:00
+47	admin@socialmoney.com	Admin	Admin	000-000-0000	2019-09-13T12:38:09.039-05:00	1	2014-03-05T15:26:45.457+00:00	
+240579	ricky.bobby@q2ebanking.com	Ricky	Bobby		2019-08-27T17:56:24.550-05:00	1	2016-07-19T11:53:10.859-05:00	
+349010	Bob.Jack@coolmoneystartup.com	Bob	Jack		2019-07-17T11:19:35.613-05:00	0	2017-11-14T10:10:56.219-06:00	2019-07-17T11:19:35.613-05:00
+377777	john.doe@coolmoneystartup.com	John	Doe		2019-07-17T11:19:35.613-05:00	1	2017-11-14T10:10:56.219-06:00		This is extra text after the defined set of fields.  Your processing should ignore this and continue without error.	This field should also not cause issues.

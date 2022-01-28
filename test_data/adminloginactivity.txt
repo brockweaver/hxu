@@ -1,0 +1,5 @@
+H	201909091523_ADMINLOGINACTIVITY.TXT	4	2019-09-09T15:23:20.585-05:00	2019-09-09T15:23:20.585-05:00
+47	admin@socialmoney.com	65.121.137.234	Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko	2016-03-08T21:50:32.876+00:00	S
+240579	ricky.bobby@q2ebanking.com	65.121.137.234	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36	2016-03-14T19:41:29.026+00:00	S
+377777	john.doe@coolmoneystartup.com	65.121.137.234	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36	2016-12-14T14:45:49.950+00:00	F
+349010	Bob.Jack@q2ebanking.com	65.121.137.234	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36	2017-01-19T15:35:05.706+00:00	F	This is extra text after the defined set of fields.  Your processing should ignore this and continue without error.	This field should also not cause issues.

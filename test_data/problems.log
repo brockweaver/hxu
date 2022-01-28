@@ -1,0 +1,71 @@
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201810200318_ACCOUNTBALANCE.TXT 
+    No issues.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202003011500_ACHTRANSACTION.TXT 
+    header count of 1 lines does not match actual line count of 2
+    
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201909231753_ADMINUSERS.TXT 
+    Documentation defines 13 fields per line but only 9 exist in the example file
+    Documentation does not specify the sftp folder in which this file resides. Please add verbiage detailing the sftp location details, similar to how most other files do.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201909091523_ADMINLOGINACTIVITY.TXT 
+    Documentation defines 8 fields per line but only 6 exist in the example file
+    Documentation does not specify the sftp folder in which this file resides. Please add verbiage detailing the sftp location details, similar to how most other files do.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201909091523_ADMINCUSTOMERSEARCHACTIVITY.TXT 
+    Documentation defines 16 fields per line but only 14 exist in the example file
+    Documentation does not specify the sftp folder in which this file resides. Please add verbiage detailing the sftp location details, similar to how most other files do.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201909091523_ADMINWEBUSAGEACTIVITY.TXT 
+    Documentation defines 6 fields per line but only 3 exist in the example file
+    Documentation does not specify the sftp folder in which this file resides. Please add verbiage detailing the sftp location details, similar to how most other files do.
+    
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202108021547_BULKACCOUNTLOCK.txt 
+    This is not a valid fixed-length file.  Documentation states Notes field starts at byte 27 and is 256 bytes long, for a total of 283 bytes minimum per line.  No lines contain this many bytes. Some lines appear to contain this data, but they are not padded out to the defined 256 bytes long.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202105301548_BULKACCOUNTLOCKRESPONSE.TXT 
+    header count of 14 lines does not match actual line count of 6
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202106301801_BULKACCOUNTUNLOCK.txt 
+    This is not a valid fixed-length file.  Documentation states Notes field starts at byte 21 and is 256 bytes long, for a total of 277 bytes minimum per line.  No lines contain this many bytes. Some lines appear to contain this data, but they are not padded out to the defined 256 bytes long.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202106301801_BULKACCOUNTUNLOCKRESPONSE.TXT 
+    This is not a valid fixed-length file.  Documentation states UnlockFailReason field starts at byte 24 and is 255 bytes long, for a total of 279 bytes minimum per line.  No lines contain this many bytes. Some lines appear to contain this data, but they are not padded out to the defined 255 bytes long.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201508310901_BULKTRANSFERINITIATE.TXT
+    No issues.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201508170003_BULKTRANSFER.TXT 
+    No issues.
+
+An example file for Bulk Transfer Response does not exist.  Or, at least, the link to it is broken: at the bottom of https://docs.corepro.io/docs/bulk-transfer-process, the link entitled "Example Bulk Transfer Response File" simply pulls that same url (https://docs.corepro.io/docs/bulk-transfer-process)
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202106211238_DEBITCARDEVENTNOTIFICATION.txt : 
+    Documentation states AvsResult field starts at byte 4899 and is 1 byte long, for a total of 4899 bytes minimum per line.  No lines contain this many bytes. Example file width is 4898, field starting at byte 4898 of length 1 is not available. AvsResult field appears to be missing.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202106160418_DEBITCARDTRANSACTION.TXT :
+    Documentation states AvsResult field starts at byte 940 and is 1 byte long, for a total of 940 bytes minimum per line.  No lines contain this many bytes. Example file width is 940, field starting at byte 940 of length 1 is not available. AvsResult field appears to be missing.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201504180415_CUSTOMER.TXT : 
+    Documentation defines 57 fields per line but only 56 exist in the example file
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201505030412_CUSTOMERREGISTRATION.TXT :
+    No issues.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201909181350_EVENTNOTIFICATION.TXT :
+    Documentation defines TransactionTypeCode field twice: once at byte offset 310 and once at byte offset 477.  If these are different fields, please rename appropriately. If their values always match, please explicitly state that and still rename one of them to be a unique field name. Alternatively, deprecate one if they are truly duplicates in all scenarios.
+    header count of 12769 lines does not match actual line count of 11972
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/20200115_EXTERNALACCOUNTEXPORT.TXT :
+    Documentation defines 24 fields per line but only 23 exist in the example file
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201809110304_POSTEDTRANSACTION.TXT 
+    The DebitAccountId, CreditAccountId, and ProductId fields seems to be missing from the example file.  Example file width is 922 bytes but should be 953 according to documentation.
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/202001031550_STATEMENTEVENTNOTIFICATION.txt 
+    header count of 82 lines does not match actual line count of 9
+
+https://github.com/q2baas/SFTPFileExamples/blob/prod/201504180415_SAMPLEBANK_TRIALBALANCEEXPORT_DDA.TXT 
+    Documentation defines 23 fields per line but only 22 exist in the example file
+
+An example file for Archived Customer Extract File does not exist.  No link for it appears on https://docs.corepro.io/docs/archived-customer-extract-file.
