@@ -19,20 +19,20 @@ func CobraCommands(parent *cobra.Command) *cobra.Command {
 	}
 	parent.AddCommand(fileCmd)
 
-	convertCmd := &cobra.Command{
-		Use:   "convert [inputFile] [outputFile]",
+	parseCmd := &cobra.Command{
+		Use:   "parse [inputFile] [outputFile]",
 		Run:   cobraConvert,
-		Short: "Converts native fixed-width or tab-delimited Helix files to different formats",
+		Short: "Parses native fixed-width or tab-delimited Helix files and emits in more useful formats",
 		Args:  cobra.MaximumNArgs(2),
 	}
 
-	convertCmd.Flags().String("format", "jsonlines", "format to emit [jsonlines,tsv,csv]")
-	convertCmd.Flags().Bool("strict", false, "error if unexpected bytes appear in input file content lines")
-	convertCmd.Flags().Bool("preserve", false, "preserve exact original content sans insignificant whitespace; do not apply conversions")
-	convertCmd.Flags().Bool("noheader", false, "suppress emitting the header line")
-	convertCmd.Flags().Bool("windows", false, "emit windows-style line endings (\\r\\n) instead of unix-style (\\n)")
-	convertCmd.Flags().Bool("help", false, "display help content")
-	fileCmd.AddCommand(convertCmd)
+	parseCmd.Flags().String("format", "jsonlines", "format to emit [jsonlines,tsv,csv]")
+	parseCmd.Flags().Bool("strict", false, "error if unexpected bytes appear in input file content lines")
+	parseCmd.Flags().Bool("preserve", false, "preserve exact original content sans insignificant whitespace; do not apply conversions")
+	parseCmd.Flags().Bool("noheader", false, "suppress emitting the header line")
+	parseCmd.Flags().Bool("windows", false, "emit windows-style line endings (\\r\\n) instead of unix-style (\\n)")
+	parseCmd.Flags().Bool("help", false, "display help content")
+	fileCmd.AddCommand(parseCmd)
 
 	verifyCmd := &cobra.Command{
 		Use:   "verify [inputFile]",
