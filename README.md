@@ -12,7 +12,7 @@ Planned future features:
 `hxu file generate` - processes stdin stream and emits a valid file for uploading to Helix.  Several options exist, run `hxu help file generate` for details.
 
 ### Options
-running `hxu help file` or `hxu file --help`:
+running `hxu help file parse` or `hxu file parse --help`:
 ```
 Converts native fixed-width Helix files to different formats
 
