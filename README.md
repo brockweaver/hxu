@@ -80,7 +80,7 @@ Making this a bit easier to read:
     "companyName": "ACH File Name",
     "companyDiscretionaryData": "123456890",
     "companyEntryDescription": "PAID",
-    "receivingCompanyName": "ACH SAMPLE"
+    "receivingCompanyName": "ACH SAMPLE",
     "identificationNumber": "001002005861076"
 }
 ```
