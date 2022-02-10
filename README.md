@@ -4,7 +4,7 @@ This is an open source (MIT licensed) utility for more easily consuming resource
 
 Planned future features:
 - sftp sync capability to automatically pull down expected files to a local repository
-- event webhooks to handling consuming events off Azure Service Bus and calling a REST-friendly webhook you implement
+- event webhooks for consuming events off Azure Service Bus and calling a REST-friendly webhook you implement
 
 ## Commands
 `hxu file parse` - processes stdin stream as one of the fixed-width files emitted by Helix. Will emit a jsonlines-formatted stream to stdout. Auto detects file content based on file header line and parses appropriately.  Options exist to override this default behavior. Pass the `--help` flag to see all of them.
