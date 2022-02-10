@@ -91,7 +91,7 @@ type TypedEventNotificationFileModel struct {
 }
 
 func (mdl *EventNotificationFileModel) IsTabDelimitedFile() bool {
-	return true
+	return false
 }
 
 func (mdl *EventNotificationFileModel) HeaderFieldCount() int {
